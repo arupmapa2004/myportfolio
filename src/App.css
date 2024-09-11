@@ -144,11 +144,38 @@ a {
   margin: 20px;
   padding: 20px;
   text-align: center;
-  border-radius: 10%;
+  border-radius: 10px;
   border: 1px solid yellow;
   box-shadow: var(--box-shadow);
 }
 
 .skills .items .item img {
   width: 70px;
+}
+
+/* Contact*/
+
+.contact-icons{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-icons .item{
+  background-color: black;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid yellow;
+}
+.contact-icons .item:hover{
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+.contact-icons .item .icon{
+  font-size: 2rem;
 }
