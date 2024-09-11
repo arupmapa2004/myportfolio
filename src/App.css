@@ -78,8 +78,8 @@ a {
   }
 
   25% {
-    border-color: rgb(12,12,199);
-    box-shadow: 10px 10px 100px 50px rgb(12,12,199);
+    border-color: rgb(12, 12, 199);
+    box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
   }
 
   50% {
@@ -94,26 +94,61 @@ a {
   }
 
   100% {
-    border-color: rgb(50,55,205);
-    transform: translate(0,-0px);
-    box-shadow: 10px 10px 100px 50px rgb(50,55,205);
+    border-color: rgb(50, 55, 205);
+    transform: translate(0, -0px);
+    box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
   }
 }
 
 /* Education Part */
 
-.ex{
+.edu {
   width: 900px;
 }
-.ex-items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--bg-color);
-    margin: 20px;
-    padding: 30px;
-    width: 800px;
-    border: 1px solid yellow;
-    border-radius: 10px;
-    box-shadow: var(--box-shadow);
+
+.edu-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-color);
+  margin: 20px;
+  padding: 30px;
+  width: 800px;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.edu-items .left img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 10%;
+}
+
+/*Skills part*/
+
+.skills {
+  width: 900px;
+}
+
+.skills .items {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.skills .items .item {
+  width: calc(33.33%);
+  background-color: black;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10%;
+  border: 1px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+
+.skills .items .item img {
+  width: 70px;
 }
