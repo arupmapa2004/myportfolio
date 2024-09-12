@@ -19,8 +19,8 @@ function Projects() {
                                             <div className="card-body text-center">
                                                 <h5 className="card-title">{data.title}</h5>
                                                 <p className="card-text">{data.description}</p>
-                                                <a href="/" className="btn btn-warning mx-3">Demo</a>
-                                                <a href="/" className="btn btn-primary">Code</a>
+                                                <a href={data.demo} className="btn btn-warning mx-3" target="_blank" rel="noopener noreferrer">Demo</a>
+                                                <a href={data.source} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Code</a>
                                             </div>
                                         </div>
                                     </div>
